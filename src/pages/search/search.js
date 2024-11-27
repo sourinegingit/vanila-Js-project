@@ -9,7 +9,7 @@ const search = async () => {
     return El({
       element: "div",
       id: "Search",
-      className: "w-[414px] h-screen flex flex-col overflow-y-hidden",
+      className: "w-[414px] h-screen  flex flex-col overflow-y-hidden mx-auto",
       children: [
         El({
           element: "div",
@@ -98,14 +98,14 @@ const search = async () => {
                   },
                   
                   className:
-                    "w-[350px] h-[45px] bg-gray-100 border-none rounded-md px-10 absolute z-10 left-[45px]",
+                    "w-[400px] h-[45px] bg-gray-100 border-none rounded-md px-[30px]  z-10 left-[45px]",
                   type: "text",
                   placeholder: "Search",
                 }),
                 El({
                   element: "img",
                   className:
-                    "absolute z-20 w-[414px] h-[18px] top-[45px] left-[-150px]",
+                    "absolute z-20 w-[414px] h-[18px] top-[15px] left-[-70PX]",
                   src: "./src/images/icon/search.svg",
                 }),
                 El({
